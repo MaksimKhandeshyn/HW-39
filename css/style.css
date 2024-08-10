@@ -1,0 +1,25 @@
+body {
+  background-color: #bbb5b5;
+}
+.header {
+  padding-top: 10px;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.slide {
+  padding-top: 50px;
+}
+.slide-img {
+  width: 300px;
+  height: 200px;
+}
+.w-100 {
+  width: 50vw !important;
+  margin: auto;
+  height: 450px;
+}
