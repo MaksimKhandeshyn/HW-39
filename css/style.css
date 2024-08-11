@@ -2,11 +2,14 @@ body {
   background-color: #bbb5b5;
 }
 .header {
+  background-color: #bbafaf;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .bg-body-tertiary {
   --bs-bg-opacity: 0;
 }
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: space-between;
   margin-left: 150px;
@@ -22,4 +25,35 @@ body {
   width: 50vw !important;
   margin: auto;
   height: 450px;
+}
+.product {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.product__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  flex-basis: calc((100% - 2 * 20px) / 3);
+}
+.bi-suit-heart {
+  margin-left: 280px;
+}
+.bi-bag {
+  margin-left: 10px;
+}
+.footer {
+  background-color: #bbafaf;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item-link {
+  color: #f5dada;
+  font-size: 20px;
 }
